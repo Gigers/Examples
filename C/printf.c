@@ -1,5 +1,5 @@
-#include <stdio>
-//std = standard / io = input output
+#include <stdio.h>
+//std = standard / io = input output / h = header
 
 void main (){
   
