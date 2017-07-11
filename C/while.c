@@ -1,7 +1,24 @@
 #include <stdio.h>
 
 void main(){
-	int x=0,y=1,cont=0;
+	int x,y,cont=0;
+	x=10;
+	while(x--){
+		printf("X = %d\n",x);
+	}
+	printf("\n");
+	while(x<10){
+		printf("X = %d\n",x);
+		x++;
+	}
+	printf("\n");
+	while(x){
+		printf("X = %d\n",x);
+		x--;
+	}
+	printf("\n");
+	x=0;
+	y=1;
 	do{
 		cont++;
 		printf("Repeticoes %d\n",cont);
@@ -11,6 +28,7 @@ void main(){
 		printf("Y: ");
 		scanf("%d",&y);
 	}while(x<y);
+	printf("\n");
 	x=0;
 	y=1;
 	cont=0;
@@ -23,6 +41,7 @@ void main(){
 		printf("Y: ");
 		scanf("%d",&y);
 	}
+	printf("\n");
 	x=0;
 	y=1;
 	cont=0;
