@@ -19,7 +19,8 @@ public class Switch {
 		switch(mes) {
 		case "janeiro":
 			JOptionPane.showMessageDialog(null, "Capricornio");
-			break;
+			break; //O break é colocado para evitar que após a execução do case, o case abaixo seja executado
+				//Porém caso seja necessário que o caso de baixo seja executado basta remover o break
 		case "fevereiro":
 			JOptionPane.showMessageDialog(null, "Peixes");
 			break;
