@@ -12,8 +12,7 @@ public class Desafio {
 		
 		System.out.println(tese.a);
 		
-	}
-	
+	}	
 }
 
 /*
