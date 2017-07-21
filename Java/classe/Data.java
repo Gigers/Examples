@@ -15,6 +15,8 @@ public class Data {
 		 * O construtor padrão (Sem parametros)
 		 * deve ser definido caso outro construtor já exista
 		 */
+		
+		this(1,1,2017); //Representa um dos construtores de sua propria classe;
 	}
 	
 	//Construtor
@@ -26,6 +28,7 @@ public class Data {
 	
 	Data(int dia, int mes, int ano, double preco){
 		
+		//this significa o objeto atual
 		this.dia = dia;
 		this.mes = mes;
 		this.ano = ano;

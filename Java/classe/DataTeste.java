@@ -11,11 +11,11 @@ public class DataTeste {
 		
 		Data casamento = new Data();
 		
-		casamento.ano = 2015;
-		casamento.dia = 27;
-		casamento.mes = 11;
+		//casamento.ano = 2015;
+		//casamento.dia = 27;
+		//casamento.mes = 11;
 		casamento.preco = 19.9; 
-		
+	
 		JOptionPane.showMessageDialog(null, nascimento.formatar());
 		
 		JOptionPane.showMessageDialog(null,casamento.formatarCasamento());
