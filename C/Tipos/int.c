@@ -12,7 +12,7 @@ int main(void){
   //tipo nome
   //int i = INT_MAX; //INT_MAX -> tamanho maximo que o tipo int suporta
   //unsigned i = UINT_MAX; //UINT_MAX -> tamanho maximo do tipo int sem sinal
-  //uint64_t i = ULONG_MAX; //garantindo que a variavel terá 32 bits
+  //uint32_t i = ULONG_MAX; //garantindo que a variavel terá 32 bits
 
   //uint16_t t = USHRT_MAX;
 
