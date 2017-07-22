@@ -1,0 +1,18 @@
+/* Fazendo pequenos calculos com bc */
+
+/* Utilize a opção -l */
+
+
+print 2 + 2
+
+print "\n"
+
+print 2 * a(1)
+
+print "\n"
+
+print c(23)
+
+print "\n"
+
+quit
