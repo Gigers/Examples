@@ -1,0 +1,14 @@
+{
+  "name": "npm-modules",
+  "version": "1.0.0",
+  "description": "Projeto para os testes com NPM",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Felipe",
+  "license": "GPL-3.0",
+  "dependencies": {
+    "lodash": "^4.17.4"
+  }
+}
