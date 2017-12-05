@@ -1,0 +1,9 @@
+use kindachocolate
+
+show grants
+
+--  yyyy-mm-dd ---
+insert into chocolate(marca, tipo, data_produzido, data_validade)
+values ('Choboloba', 'branco', '2017-06-06', '2017-08-06')
+
+select * 

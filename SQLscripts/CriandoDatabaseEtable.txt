@@ -1,0 +1,24 @@
+select current_user() -- Seleciona o usuário logado --
+
+create database kindachocolate; -- Cria a tabela de tipos de chocolate --
+
+use kindachocolate;
+
+create table chocolates( --  kindachocolate.chocolate  --
+	id bigint primary key auto_increment,
+	marca varchar(30),
+	tipo varchar(30),
+	data_produzido date,
+	data_validade date,
+) engine = InnoDB;
+
+create table kindachocolate.chocolates(
+	id bigint primary key auto_increment,
+	cliente varchar(50),
+	endereco varchar(50),
+	data_pedido date,
+	data_limite date
+)engine=InnoDB;
+
+grant select, insert on kindachocolate.* to 'pooruser'@'localhost'
+flush privileges
